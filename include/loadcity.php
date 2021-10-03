@@ -7,6 +7,6 @@ while($row=mysqli_fetch_assoc($city)){
     $str.="<option value='{$row['city_name']}'>{$row['city_name']}</option>";
 }
 echo $str;
-
+//comit k liye test
 
 ?>
